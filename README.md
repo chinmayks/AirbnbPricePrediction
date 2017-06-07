@@ -29,13 +29,14 @@ Converted required numeric fields into float type while compensating for unavail
     splitDataset.py
     createExpandedFeatureSets.py
   
-2) Creation and Extraction of Features
+2) Creation and Extraction of Features: 
+.
   
-Property type
-Room type
-Overall rating scores
-Proximity to Times Square (the assumed centre of the city) - proximityToTimesSquare.py
-Sentiment analysis of listing descriptions and listing reviews- sentimentAnalysis.py
+    Property type
+    Room type
+    Overall rating scores
+    Proximity to Times Square (the assumed centre of the city) - proximityToTimesSquare.py
+    Sentiment analysis of listing descriptions and listing reviews- sentimentAnalysis.py
   
 3) Models Used
    

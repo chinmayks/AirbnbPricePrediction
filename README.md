@@ -1,9 +1,12 @@
 # AirbnbPricePrediction
 Project: Price and Neighborhood prediction of Airbnb Listings
+
 DataSet: http://insideairbnb.com/get-the-data.html
+
 City: New York city
-1 Introduction:
-  Making use of the Inside Airbnb Project's New York city listings, we attempted to predict a listing's neighborhood and price. We started with data exploration and based on the results,
+
+1) Introduction:
+Making use of the Inside Airbnb Project's New York city listings, we attempted to predict a listing's neighborhood and price. We started with data exploration and based on the results,
 proceeded with data cleaning.We extracted text based fea-
 tures like proximity from times square and sentiment anal-
 ysis of reviews from the listings and then passed them on
@@ -29,12 +32,10 @@ Removed attributes found to be empty for > 60% of entries
 Converted required numeric fields into float type while compensating for unavailable values
 
   Data Exploration:
+  
     datasetExploration.py
-    
     cleaningAndPreprocessing.py
-    
     splitDataset.py
-    
     createExpandedFeatureSets.py
   
 2) Creation and Extraction of Features
@@ -51,11 +52,14 @@ neighbourhoodPrediction.py
 pricePrediction.py
    
    Baseline Models used:
+   
       Linear Regression
       Ridge Regression
       Bayes-Ridge Regression
       Elastic Net Regularization
+      
     Ensemble Model:
+    
       Gradient Boosting Regressor 
       
     

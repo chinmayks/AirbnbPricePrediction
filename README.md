@@ -30,6 +30,7 @@ Converted required numeric fields into float type while compensating for unavail
     createExpandedFeatureSets.py
   
 2) Creation and Extraction of Features:
+
 Main Features
   
   Property type

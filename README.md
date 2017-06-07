@@ -34,9 +34,13 @@ Converted required numeric fields into float type while compensating for unavail
 Main Features
   
   Property type.
+  
   Room type.
+  
   Overall rating scores.
+  
   Proximity to Times Square (the assumed centre of the city) - proximityToTimesSquare.py
+  
   Sentiment analysis of listing descriptions and listing reviews- sentimentAnalysis.py
   
 3) Models Used

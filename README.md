@@ -29,14 +29,14 @@ Converted required numeric fields into float type while compensating for unavail
     splitDataset.py
     createExpandedFeatureSets.py
   
-2) Creation and Extraction of Features: 
-.
+2) Creation and Extraction of Features:
+Main Features
   
-    Property type
-    Room type
-    Overall rating scores
-    Proximity to Times Square (the assumed centre of the city) - proximityToTimesSquare.py
-    Sentiment analysis of listing descriptions and listing reviews- sentimentAnalysis.py
+  Property type
+  Room type
+  Overall rating scores
+  Proximity to Times Square (the assumed centre of the city) - proximityToTimesSquare.py
+  Sentiment analysis of listing descriptions and listing reviews- sentimentAnalysis.py
   
 3) Models Used
    
@@ -53,6 +53,23 @@ neighbourhoodPrediction.py
     Ensemble Model:
     
       Gradient Boosting Regressor 
+      
+ 4) Conclusion:
+ 
+The most infuential factors affecting price is distance from
+the most preferred area or economic zone, which in our case
+was Times Square and type of house: Apartment Condo /Townhouse / Loft.We even tried sentiment analysis on the
+description and user reviews and tried to extract features
+from it. But it didn't contribute much to price prediction.
+Proximity was the most in
+uential feature affecting prediction of neighborhood and house type having little contribu-
+tion towards it.
+For future work, Image analysis using openCV.It could have
+been used to extract visual features like quality of photo
+uploaded of the listings, which we think also is an essential
+part in deciding price of a listing. More detailed sentiment
+analysis can be done in order to lower mean absolute error.
+ 
       
     
  
